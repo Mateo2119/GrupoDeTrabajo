@@ -1,0 +1,70 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(8,0,153) 47%, rgba(8,0,153,1) 100%);
+    color: #FFFFFF; 
+}
+
+.body2{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(43, 0, 0) 0%, rgb(153, 0, 0) 47%, rgb(153, 0, 0) 100%);
+  color: #FFFFFF; 
+}
+
+.container{
+    max-width: 95%;
+}
+
+.containerInd{
+    border-radius: 5px;
+    margin-top: 10%;
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+    background-color: rgb(0,0,0,.7);
+    color: rgb(197, 197, 197);
+ }
+
+ .imgPrincipal {
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+  .imgArtRe{
+    max-width: 110px;
+    max-height: 110px;
+    min-height: 110px;
+    min-width: 110px;
+    object-fit: cover;
+  }
+  
+  a{
+    color: white;
+    text-decoration: none;
+  }
+
+  /* Barra de desplazamiento vertical */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track de la barra de desplazamiento */
+  ::-webkit-scrollbar-track {
+    background-color: #000730;
+  }
+  
+  /* Barra de la barra de desplazamiento */
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 3, 177);
+    border-radius: 5px;
+  }
+  
+  /* Puntero de la barra de desplazamiento */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(21, 0, 209);
+  }
+  
+  .list-group-item{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+  }
